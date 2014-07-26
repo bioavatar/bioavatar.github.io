@@ -1,4 +1,6 @@
 /*
+
+/*
  * HTML5 Boilerplate
  *
  * What follows is the result of much research on cross-browser styling.
@@ -15,7 +17,7 @@ button,
 input,
 select,
 textarea {
-    color: #222;
+    color: #FFF;
 }
 
 body {
@@ -93,123 +95,124 @@ textarea {
    Parallax Scroll
    ========================================================================== */
 body, html {
-	height: 100%;
-	min-height: 100%;
-	background-color: white;
+    height: 100%;
+    min-height: 100%;
+    background-color: white;
 }
 body {
-	
+    
 }
 .no-js {
-	padding-top: 106px;
+    padding-top: 106px;
 }
 h2 {
-	margin-top: 0;
+    margin-top: 0;
 }
 .loading {
-	background: url('../img/ico_loading.gif') no-repeat center center;
+    background: url('../img/ico_loading.gif') no-repeat center center;
 }
 section {
-	min-width: 960px;
-	opacity: 0;
+    min-width: 960px;
+    opacity: 0;
 }
 .loaded section,
 .no-js section {
-	opacity: 1;
-	-webkit-transition: opacity 300ms ease-out;
-	-moz-transition: opacity 300ms ease-out;
-	transition: opacity 300ms ease-out;
+    opacity: 1;
+    -webkit-transition: opacity 300ms ease-out;
+    -moz-transition: opacity 300ms ease-out;
+    transition: opacity 300ms ease-out;
 }
 main {
-	overflow-x: hidden;
+    overflow-x: hidden;
 }
 #preload {
-	width: 1px;
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 .bcg {
-	background-position: center center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
 }
 
 .hsContainer {
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;;
 }
 
 .hsContent {
-	max-width: 700px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
+    max-width: 700px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
 }
-	.hsContent h2  {
-		color: #fff8de;
-		padding: 10px 5px;
-		font-size: 35px;
-		line-height: 38px;
-		margin-bottom: 12px;
-	}
-	.hsContent p {
-		width: 400px;
-		color: #b2b2b2;
-	}
-	.hsContent a {
-		color: #b2b2b2;
-		text-decoration: underline;
-	}
+    .hsContent h2  {
+        color: #FFFFFF;
+        font-size: 35px;
+        line-height: 38px;;
+    }
+    .hsContent p {
+        width: 400px;
+        color: #FFFFFF;
+    }
+    .hsContent a {
+        color: #b2b2b2;
+        text-decoration: underline;
+    }
 
 /* Slide 1 */
 #slide-1 .bcg {background-color: hsla(201, 100%, 50%, 0.96)}
 #slide-1 .hsContent {
-	bottom: 200px;
-	top: 300px;
+    bottom: 200px;
+    top: 300px;
     left: 40%;
 
 }
 
 /* Slide 2 */
-#slide-2 .bcg {background-color: hsla(195, 81%, 62%, 1)}
+#slide-2 .bcg {background: url('../img/slide1bg.png');}
 #slide-2 .hsContent {
-    margin-left: -600px;
-    top: 20%;
+    left: 0%;
+    width: 1136px;
+    top: 0%;
+    position: relative;
+    height: 100%;
 }
 #slide-2 h2 {
-    position: fixed;
+    font-size: 5em;
     top: 10%;
+    margin-top: 8px;
+    margin-bottom: 10px;
 }
 
 /* Slide 3 */
-#slide-3 .bcg {background-color: hsla(186, 100%, 47%, 1)}
+#slide-3 .bcg {background-color: hsla(201, 100%, 50%, 0.96);}
 #slide-3 .hsContent {
-	margin-left: -239px;
+    margin-left: -239px;
 }
-	#slide-3 h2 {
-		color: #f2ead6;
-		background-color: rgba(0,0,0,0.6);
-	}
+    #slide-3 h2 {
+        color: #f2ead6;
+        background-color: rgba(0,0,0,0.6);
+    }
 
 /* Slide 4 */
-#slide-4 .bcg {background-color: hsla(221, 100%, 50%, 1)}
+#slide-4 .bcg {background-color: hsla(201, 100%, 50%, 0.96)}
 #slide-4 .hsContent {
-    margin-left: -600px;
-    position: fixed;
+    width: auto;
+    min-width: 960px;
     top: 50px;
-}
-#slide-4 h2 {
-    background: none;
-    padding-left: 0;
-    padding-right: 0;
+    height: auto;
+    position: relative;
+    left: 0%;
 }
 
 /* ==========================================================================
@@ -422,8 +425,129 @@ main {
     margin: 0 0 0 0;
 }
 
-#slide-2 p {
+
+
+#slide-4 .hsContent #contact {;
+}
+
+#slide-4 .hsContent p {
+}
+
+#slide-4 #contactdetails {
+    bottom: 10px;
+    width: auto;
+    
+}
+
+
+
+#contactdetails {
+    width: auto;
+    height: auto;
+}
+
+.left-off-canvas-toggle {
+    position: fixed;
+    z-index: 1;
+    
+}
+
+#slide-2 {
     color: white;
 }
 
+
+
+#slide-2 p {
+    width:100%;
+    margin: 0 0 0 0;
+
+}
+
+
+
+#slide-4 .hsContainer {
+width: 100%;
+    height: 100%;
+    overflow: hidden;
+  
+}
+
+#slide-4 #contactinfo {
+    height: auto;
+    width: auto;;
+
+
+}
+
+div #geek {
+    
+}
+
+
+
+
+
+
+
+
+
+#nav{
+    height:35px;
+    position:fixed;
+    top:0px;
+    left:0px;
+    right:0px;
+  
+    z-index:999999;
+}
+
+#nav:hover {
+      background-color: hsla(201, 100%, 50%, 0.96);
+}
+
+#nav ul{
+    float: right;
+    height:25px;
+    list-style:none;
+    margin:6px auto 0px auto;
+    width:auto;
+}
+#nav ul li{
+    display:inline;
+    float:left;
+    margin:0px 2px;
+}
+
+#nav a{
+    font-size:20px;
+    font-weight:bold;
+    float:left;
+    padding: 2px 4px;
+    text-decoration: none;
+    
+    cursor: pointer;
+    color: white;
+      background-color: hsla(201, 100%, 50%, 0.96);
+    height:16px;
+    line-height:16px;
+}
+#nav a:hover{
+      
+   background-color: white;
+    color:  hsla(201, 100%, 50%, 0.96);
+    border:1px solid #ccc;
+}
+
+#nav a.top span, #nav a.bottom span{
+    float:left;
+    width:16px;
+    height:16px;
+}
+#nav a.top span{
+    background:transparent url(../images/top.png) no-repeat center center;
+}
+#nav a.bottom span{
+    background:transparent url(../images/bottom.png) no-repeat center center;
+}
 
