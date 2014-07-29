@@ -21,24 +21,25 @@
     <img src="img/bcg_slide-2.jpg">
     </div>
 
+        <div id="nav">
+        <img src="img/mylogo.png">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a>Blog</a></li>
+        <li><a>Works</a></li>
+        <li><a>Contact</a></li>
  
- <div id="nav">
- <ul>
-  <li><a href="#">Home</a></li>
-  <li><a>Blog</a></li>
-  <li><a>Works</a></li>
-  <li><a>Contact</a></li>
  
-  </li>
- </ul>
-</div>
+        </ul>
+        </div>
+ 
+ 
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
     <main><!--the main content, should not be modified for external plugins-->
-    
- 
+        
        	 
 	   <section id="slide-1" class="homeSlide">
             <div class="bcg"
@@ -79,8 +80,8 @@
                     data-anchor-target="#slide-2"
                     >
                         <h2>Who is he?.</h2>
-                        <p>He is a BS Information Technology graduate. He learned a lot from school, but he gained more knowledge on my own. </p>
-                        <p>He just love programming, it just gives him the ability to virtually create something out of codes.</p>
+                        <p>He is a BS Information Technology graduate. He learned a lot from school, but he gained more knowledge on his own. </p>
+                        <p>He just loves programming, it just gives him the ability to virtually create something out of codes.</p>
                         <div id="geek"><img src="img/geek.png"></div>
                     </div>
                 </div>
@@ -160,15 +161,15 @@
         <script src="js/skrollr.js"></script>
         <script src="js/main.js"></script>
         <script type="text/javascript">$(function() {
-    $(window).scroll(function(){
+        $(window).scroll(function(){
         var scrollTop = $(window).scrollTop();
         if(scrollTop != 0)
             $('#nav').stop().animate({'opacity':'0.2'},400);
         else   
             $('#nav').stop().animate({'opacity':'1'},400);
-    });
+        });
      
-    $('#nav').hover(
+        $('#nav').hover(
         function (e) {
             var scrollTop = $(window).scrollTop();
             if(scrollTop != 0){
@@ -181,8 +182,8 @@
                 $('#nav').stop().animate({'opacity':'0.2'},400);
             }
         }
-    );
-});</script>
+        );
+        });</script>
         
         
         

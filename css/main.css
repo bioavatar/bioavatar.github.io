@@ -12,6 +12,9 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+
+
 html,
 button,
 input,
@@ -181,11 +184,13 @@ main {
 /* Slide 2 */
 #slide-2 .bcg {background: url('../img/slide1bg.png');}
 #slide-2 .hsContent {
+    box-sizing: border-box;
     left: 0%;
-    width: 1136px;
+    width: 100%;
     top: 0%;
     position: relative;
     height: 100%;
+    max-width: none;
 }
 #slide-2 h2 {
     font-size: 5em;
@@ -459,8 +464,11 @@ main {
 
 
 #slide-2 p {
-    width:100%;
+    width: 100%;
     margin: 0 0 0 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+    color: hsla(228, 89%, 21%, 1);
 
 }
 
